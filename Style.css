@@ -1,0 +1,110 @@
+body {
+		background-color: #fff9c4;
+		text-align: center;
+		font-family: Calibri, sans-serif;
+}
+
+
+
+
+.card {
+		background-color: white;
+		width: 700px;
+		margin: 30px auto;
+		padding: 25px;
+		border-radius: 20px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+.card_big {
+		background-color: white;
+		width: 700px;
+		margin: 30px auto;
+		padding: 25px;
+		border-radius: 20px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+
+
+.hidden {
+	display: none;
+}
+
+
+h1 {
+		color: #c19a6b;
+		font-size: 52px;
+}
+
+
+h2 {
+		color: #c19a6b;
+}
+
+
+p {
+		color: #555554;
+		font-size: 18px;
+}
+
+
+.emoji {
+		font-size: 22px;
+}
+
+
+img {
+		width: 400px;
+		height: auto;
+}
+
+
+button {
+		background-color: #ffd700;
+		color: rgb(29, 29, 0);
+		font-size: 18px;
+		padding: 12px 28px;
+		border: none;
+		border-radius: 25px;
+		cursor: pointer;
+}
+
+
+button:hover {
+		background-color: #c19a6b;
+}
+
+
+ul {
+		list-style-position: inside;
+		padding-left: 0;
+}
+
+
+li {
+		margin: 20px 0;
+		color: #555555;
+}
+
+
+.card ul {
+    text-align: left;
+    display: inline-block;
+    width: 85%;
+    line-height: 1.8;
+}
+
+.card li {
+    text-align: left;
+}
+
+.card p {
+    text-align: left;
+    width: 85%;
+    margin: 15px auto;
+}
