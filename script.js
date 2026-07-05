@@ -15,22 +15,27 @@ function HideAllSections() {
     GameSection.classList.add("hidden");
 }
 
-StartButton.onclick = function() {
+function ShowSection(section) {
     HideAllSections();
-    GameSection.classList.remove("hidden");
+    section.classList.remove("hidden");
+
+    section.scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+StartButton.onclick = function() {
+    ShowSection(GameSection);
 };
 
 BagButton.onclick = function() {
-    HideAllSections();
-    BagSection.classList.remove("hidden");
+    ShowSection(BagSection);
 };
 
 StoreButton.onclick = function() {
-    HideAllSections();
-    StoreSection.classList.remove("hidden");
+    ShowSection(StoreSection);
 };
 
 BakeryButton.onclick = function() {
-    HideAllSections();
-    BakerySection.classList.remove("hidden");
+    ShowSection(BakerySection);
 };
